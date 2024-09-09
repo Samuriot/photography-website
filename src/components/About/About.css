@@ -4,4 +4,26 @@
         font-size: 60px;
         color: #36404a;
     }
+    p {
+        font-size: 30px;
+    }
+
+    .About-layout {
+        display:flex;
+        padding-top: 30px;
+    }
+
+    .About-text {
+        width: 50%;
+        padding-right: 50px;
+    }
+    
+    .portrait {
+        margin-left: 100px;
+        width: 40%;
+        height: 800px;
+        position: relative;
+        object-fit:cover;
+        border-radius: 50px;
+    }
 }
