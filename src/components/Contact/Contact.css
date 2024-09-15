@@ -1,0 +1,32 @@
+.contact-page {
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h3 {
+        margin-top: -20px;
+        font-size: 40px;
+    }
+
+    
+   .parent-form {
+        width: 40%;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #78d5d7;
+        border: 3px solid #3b3741;
+
+        input {
+            font-family: 'Noto sans', sans-serif;
+            display: block;
+            padding: 10px;
+        }
+
+        .form-body {
+            height: 200px;
+            width: 500px;
+        }
+    }
+}

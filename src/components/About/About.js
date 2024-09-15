@@ -15,7 +15,9 @@ const About = () => {
                     My lenses of choice has been the Rokkor-X 50mm f/1.4 prime lens for portraits and the Nikon 18-200mm for other types of photography!
                 </p>
             </div>
-            <img className="portrait" src={portrait} alt="Portrait of Jomi Ruiz"></img>
+            <div className="portrait-wrapper">
+                <img className="portrait" src={portrait} alt="Portrait of Jomi Ruiz"></img>
+            </div>
         </div>
     </div>
   )

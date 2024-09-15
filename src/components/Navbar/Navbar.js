@@ -13,10 +13,10 @@ const Navbar = () => {
         </nav>
         <div className="navbar-right">
           <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jomikael-ruiz/">
-            <LiaLinkedin style={{color: "#551A8B", textDecoration: "none"}}/>
+            <LiaLinkedin style={{color: "#2081C3", textDecoration: "none", fontSize: "75px"}}/>
           </a>
           <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jomikael-ruiz/">
-            <LiaInstagram style={{color: "#551A8B", textDecoration: "none"}}/>
+            <LiaInstagram style={{color: "#2081C3", textDecoration: "none", fontSize: "75px"} }/>
           </a>
         </div>
     </div>

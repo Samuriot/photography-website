@@ -3,14 +3,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 3px solid #121212;
 }
 
 .navbar-menu {
     display: flex;
     list-style: none;
-    gap: 20px;
-    font-size: 18px;
+    gap: 60px;
+    font-size: 30px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
-    color: #551A8B;
+    color: #2081C3;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
