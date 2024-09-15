@@ -1,32 +1,41 @@
 .contact-page {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+
+
+   .parent-wrapper {
+        max-width: 850px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left {
+        height: 100%;
+
+    }
+
+    .right {
+        padding: 25px 40px;
+    }
 
     h1 {
-        font-size: 60px;
+        font-size: 50px
     }
 
     h3 {
-        margin-top: -20px;
-        font-size: 40px;
+        font-size: 30px;
     }
 
-    
-   .parent-form {
-        width: 40%;
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #78d5d7;
-        border: 3px solid #3b3741;
-
-        input {
-            font-family: 'Noto sans', sans-serif;
-            display: block;
-            padding: 10px;
-        }
-
-        .form-body {
-            height: 200px;
-            width: 500px;
-        }
+    .field {
+        width: 100%;
+        padding: 0.5rem 1rem;
     }
 }
